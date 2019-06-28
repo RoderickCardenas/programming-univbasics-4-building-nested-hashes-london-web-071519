@@ -1,16 +1,16 @@
 def monopoly
 	monopoly = {
-	  :railroads => {
-	    :pieces => 4,
-	    :names => {}
-	  }
+	  :railroads => {}
 	}
-
 end
 
 def monopoly_with_second_tier
 	monopoly = {
-	  :railroads => {}
+	  :railroads => {
+	    :pieces => 4,
+	    :names => {},
+	    :rent_in_dollars => {}
+	  }
 	}
 end
 
